@@ -1,16 +1,10 @@
-# skyloov
+# Skyloov Demo Mobile
 
-skyloov demo
+I Used Flutter to Build Android And IOS application.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# The Project Content:
+- Splash screen
+- Display all the properties lists with pagination.
+- Users can use filters with City/Emirate, Price, number of bedrooms, and number of bathrooms.
+- Users can add the most like properties on their wishlist (in Local And on the Server).
+- Users can connect to agents by phone call.
