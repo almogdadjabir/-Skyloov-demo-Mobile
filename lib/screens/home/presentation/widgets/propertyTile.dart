@@ -55,11 +55,16 @@ class PropertyTile extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      BigText(
-                        text: '${property.title}'.toUpperCase(),
-                        fontWeight: FontWeight.w500,
-                        size: Dimensions.getAdaptiveTextSize(12),
-                        color: AppColors.kTitleTextColor,),
+                      SizedBox(
+                        height: Dimensions.screenHeight * 0.05,
+                        child: BigText(
+                          text: '${property.title}'.toUpperCase(),
+                          fontWeight: FontWeight.w500,
+                          size: Dimensions.getAdaptiveTextSize(12),
+                          color: AppColors.kTitleTextColor,
+                          maxLines: 2,
+                        ),
+                      ),
 
                       SizedBox(height: (Dimensions.screenHeight * 0.5) * 0.03,),
 

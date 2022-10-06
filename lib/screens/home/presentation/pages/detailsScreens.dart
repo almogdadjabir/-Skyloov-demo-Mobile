@@ -197,13 +197,15 @@ class DetailsScreens extends StatelessWidget {
 
 
                             Expanded(
-                              child: BigText(
-                                text: '${property.description}',
-                                fontWeight: FontWeight.w100,
-                                size: Dimensions.getAdaptiveTextSize(13),
-                                color: AppColors.kTextColor,
-                                maxLines: 6
-                              ),
+                              child: SingleChildScrollView(
+                                child: BigText(
+                                    text: '${property.description}',
+                                    fontWeight: FontWeight.w100,
+                                    size: Dimensions.getAdaptiveTextSize(13),
+                                    color: AppColors.kTextColor,
+                                    maxLines: 6
+                                ),
+                              )
                             ),
 
 
