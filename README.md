@@ -12,4 +12,4 @@ I Used Flutter to Build Android And IOS application.
 
 # How to run the App
 - Go to lib/utility/Constants.dart.
-- Change baseUrl variable to your Domain/Ip address.
+- Change baseUrl variable to your Domain/IP address.
