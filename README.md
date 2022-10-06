@@ -2,6 +2,8 @@
 
 I Used Flutter to Build Android And IOS application.
 
+![Demo](https://user-images.githubusercontent.com/49059742/194225381-ca1b5a7a-35ca-42c4-8c2b-0180bfb827d3.mp4)
+
 # The Project Content
 - Splash screen
 - Get all the properties from the server and Displayed with pagination.
